@@ -12,6 +12,12 @@
         "dist_filename": "styles.css"
     },
     "vendors": [
-        "node_modules/normalize.css/normalize.css"
+        "src/css/font-awesome.css",
+        "node_modules/normalize.css/normalize.css",
+        "src/css/foundation.min.css",
+        "src/css/jquery.fancybox.css",
+        "src/css/nice-select.css",
+        "src/css/slick.css",
+        "src/css/slick-theme.css"
     ]
 }

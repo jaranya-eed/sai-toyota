@@ -36,8 +36,12 @@
     "pump": "^1.0.2"
   },
   "dependencies": {
-    "jquery": "^3.1.1",
+    "imagesloaded": "^4.1.1",
+    "jquery": "2.2.4",
+    "masonry-layout": "^4.1.1",
     "moment": "^2.17.1",
-    "normalize.css": "^5.0.0"
+    "normalize.css": "^5.0.0",
+    "verge": "^1.9.1",
+    "waypoints": "^4.0.1"
   }
 }

@@ -1,11 +1,29 @@
 @import (reference) "_includes";
 
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
 body {
     font-family: @BASE-FONT;
     overflow: hidden;
+    overflow-y: auto;
     background-color: @BG-COLOR;
+    font-size: 16px;
 }
-.item-block {
-    transform: translateY(10px);
-    box-sizing: border-box;
+img {
+    max-width: 100%;
+}
+.v-align-wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+    .v-align-content {
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+    }
 }
