@@ -14,9 +14,10 @@
     "vendors": [
         "src/css/font-awesome.css",
         "node_modules/normalize.css/normalize.css",
-        "src/css/foundation.min.css",
+        "src/css/bootstrap.min.css",
         "src/css/jquery.fancybox.css",
         "src/css/nice-select.css",
+        "src/css/animate/animate.css",
         "src/css/slick.css",
         "src/css/slick-theme.css"
     ]
